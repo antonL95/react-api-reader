@@ -67,9 +67,11 @@ const App = () => {
     }
 
     return (
-        <div className="offers">
-            Offers
-            {renderRows()}
+        <div>
+            <h1>offers</h1>
+            <div className="offers">
+                {renderRows()}
+            </div>
         </div>
     );
 }
